@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Programming</title>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
@@ -12,8 +13,11 @@
 	<a href="../index.html">Brief</a>
   	<a href="programming.html">Programming</a>
   	<a href="site.html">Site</a>
+	<div class="navbar-right">
 	<button class="btnslidechange" id="prevslide" onclick="slideH(+1)">-</button>
-	<button name="nextslide" class="btnslidechange" id="nextslide" onclick="slideH(-1)">+</button>
+		<span id="slidecounter" display="inline" width="500px"></span>
+	<button class="btnslidechange" id="nextslide" onclick="slideH(-1)">+</button>
+	</div>
 </div>
 <div class="slidecontainer" id="slidecont">
 <div class="divslide" id="slide1"><h1>Programming</h1></div>
