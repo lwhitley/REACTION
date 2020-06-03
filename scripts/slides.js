@@ -5,7 +5,7 @@ var slideIdx = 0;
 slidesInit();
 
 function slidesInit() {
-	
+	console.log(slideIdx)
 	var c = document.getElementById("slidecont");
 	var s = document.getElementsByClassName("divslide");
 	for (var i = 0; i < s.length; i++) {
